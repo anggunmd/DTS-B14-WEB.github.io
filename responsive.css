@@ -1,0 +1,128 @@
+/*Tablet*/
+@media screen and (max-width: 1000px) {
+
+  /*Bagian Utama*/
+  .top-wrapper h1 {
+    font-size: 32px;
+    }
+  .heading h2 {
+    font-size: 20px;
+    }
+  .header-right a {
+    font-size: 16px;
+    }
+
+  /*Extra 1*/
+    .main {
+      max-width: 100%;
+      margin-bottom: 50px;
+      }
+    .slick-prev {
+      left: 35%;
+    }
+
+  /*Extrea 2*/
+    .extra2 {
+      float: none;
+    }
+    .extra2-item img {
+      width: 750px;
+      height: 400px;
+      text-align: center;
+    }
+    .extra2-text {
+      max-width: 70%;
+      padding-right: 70px;
+      padding-top: 0;
+    }
+    .extra2-text h5 {
+      font-size: 15px;
+    }
+    .extra2-bag {
+      height: 600px;
+      padding: 10px 10px;
+      text-align: center;
+    }
+    .contact {
+      float:none;
+      margin-right: 130px;
+      margin-left: 150px;
+      display: block;
+    }
+    .contact h3 {
+      text-align: center;
+    }
+    .contact p {
+      text-align: left;
+    }
+}
+
+
+/*Smartphone*/
+@media screen and (max-width: 670px) {
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+/*header*/
+  .menu-icon {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+
+/*Bagian Utama*/
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+/*Extra 1*/
+  .main {
+    width: 100%;
+  }
+  .slick-prev {
+    left: 15%;
+  }
+
+/*ekstra 2*/
+  .extra2-bag {
+    height: 600px;
+    padding: 0px;
+  }
+  .extra2-text {
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    padding: 8px 5px;
+  }
+  .contact {
+    float:none;
+    margin-right: 130px;
+    margin-left: 150px;
+    display: block;
+  }
+  .contact h3 {
+    text-align: center;
+  }
+
+  /*footer*/
+  footer {
+    text-align: center;
+  }
+}
